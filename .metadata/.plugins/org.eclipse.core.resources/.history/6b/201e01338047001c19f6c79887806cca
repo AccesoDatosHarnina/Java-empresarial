@@ -1,0 +1,13 @@
+package segundo;
+
+import java.util.LinkedList;
+
+public class Accesor {
+	public static void main(String[] args) {
+		LinkedList<PersonaDTO> personasDtos = null;
+
+		personasDtos.stream().forEach((per) -> {
+			System.out.println(per.toString());
+		});
+	}
+}

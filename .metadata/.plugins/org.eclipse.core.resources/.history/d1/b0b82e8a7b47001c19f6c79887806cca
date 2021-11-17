@@ -1,0 +1,17 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		String CONTROLADOR = "com.mysql.cj.jdbc.Driver";
+		String URL_BASEDATOS = "jdbc:mysql://localhost:3306/ejemplo";
+		
+		//cargar la clase en memoria
+		try {
+			Class.forName(CONTROLADOR);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

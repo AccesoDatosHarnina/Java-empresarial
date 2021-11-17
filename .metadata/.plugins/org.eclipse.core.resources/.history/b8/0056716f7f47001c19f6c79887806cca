@@ -1,0 +1,8 @@
+package segundo;
+
+public class Persona {
+
+	private int id;
+	private String nombreString;
+	private String apellidoString
+}

@@ -1,0 +1,10 @@
+package segundo;
+
+import java.util.LinkedList;
+
+public class Accesor {
+public static void main(String[] args) {
+	LinkedList<PersonaDTO> personasDtos=new LinkedList<PersonaDTO>(); 
+	
+}
+}
