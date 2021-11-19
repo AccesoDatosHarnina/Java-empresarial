@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="segundo.PersonaDAO"/>
+    <fullyQualifiedTypeName name="modelo.abstractDAO.DaoFactory"/>
+    <fullyQualifiedTypeName name="modelo.entity.PersonaDTO"/>
+    <fullyQualifiedTypeName name="modelo.abstractDAO.PersonaDAO"/>
 </qualifiedTypeNameHistroy>
