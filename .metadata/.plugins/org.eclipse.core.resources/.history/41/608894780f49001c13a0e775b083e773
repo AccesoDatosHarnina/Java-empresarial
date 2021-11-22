@@ -1,7 +1,0 @@
-package modelo.abstractDAO;
-
-import modelo.entity.PersonaDTO;
-
-public interface PersonaDAO extends GenericDAO<PersonaDTO, Integer> {
-	public PersonaDTO findByName(String name);
-}
