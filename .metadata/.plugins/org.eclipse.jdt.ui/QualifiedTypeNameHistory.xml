@@ -9,4 +9,8 @@
     <fullyQualifiedTypeName name="com.example.demo.modelo.PersonaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.example.demo.modelo.Persona"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.example.demo.Persona"/>
 </qualifiedTypeNameHistroy>

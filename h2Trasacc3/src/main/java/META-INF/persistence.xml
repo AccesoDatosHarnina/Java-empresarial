@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+
+	<!-- se usa para declarar los parametros de la persistencia -->
+	<persistence-unit name="harnina">
+		<class>Persona</class>
+		<!-- se definen las clases aqui si no las pones, falla?-->
+		<properties>
+			<property name="javax.persistence.jdbc.driver"	value="org.h2.Driver" />
+			<!--cambiando para que guarde en archivo -->
+			<!-- <property name="javax.persistence.jdbc.url" value="jdbc:h2:~/Desktop/Empresa" 
+				/> -->
+			<!-- una vez probado esto de h2 y su consola volvemos a la memoria -->
+			<property name="javax.persistence.jdbc.url"	value="jdbc:h2:mem:test" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+
+
+			<!-- El dialecto de sql que debe usar hibernate -->
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.H2Dialect" />
+			<!-- como hacemos la conexion con la base de datos para pasar el rollo 
+				jpa con lenguaje hbm a ddl con el sql -->
+			<!-- En este caso vamos a crear todas las tablas al iniciar la conexion 
+				y borrarlas cuando se cierre la misma -->
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+		</properties>
+	</persistence-unit>
+
+</persistence>
+
