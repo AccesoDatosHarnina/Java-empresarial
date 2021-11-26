@@ -1323,3 +1323,156 @@ org.eclipse.core.runtime.CoreException: Launch configuration PrimeroApplication 
 2021-11-24 10:05:14,624 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-11-24 10:05:14,624 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-11-24 10:05:14,625 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\h2Trasacc3\src\test\resources
+2021-11-25 13:28:41,734 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-11-25 13:28:43,672 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-11-25 13:40:14,461 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:40:14,463 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:40:14,469 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:40:14,540 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:40:14,544 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:40:14,545 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:40:14,545 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH200Anotaciones\src\test\resources
+2021-11-25 13:41:40,496 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harnina:JPAH200Anotaciones:0.0.1-SNAPSHOT @ C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\pom.xml.
+2021-11-25 13:41:41,256 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:41,256 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:41,257 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:41:41,261 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:41:41,263 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:41,264 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:41,264 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:41:41,605 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:41,605 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:41,606 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:41:41,617 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:41:41,619 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:41,619 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:41,619 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:41:42,505 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:42,506 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:42,509 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:41:42,512 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:41:42,517 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:41:42,517 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:41:42,517 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:42:01,303 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harnina:JPAH200Anotaciones:0.0.1-SNAPSHOT @ C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\pom.xml.
+2021-11-25 13:42:01,547 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:01,547 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:01,547 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:01,548 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:01,551 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:01,551 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:01,551 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:42:03,665 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:03,665 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:03,666 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:42:03,670 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:03,673 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:03,674 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:03,674 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:42:23,695 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-11-25 13:42:24,353 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harnina:JPAH200Anotaciones:0.0.1-SNAPSHOT @ C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\pom.xml.
+2021-11-25 13:42:24,563 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:24,563 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:24,564 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:42:24,589 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:24,591 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:24,591 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:24,591 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:42:25,160 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JPAMYSQL01Anotaciones04/src/main/java
+2021-11-25 13:42:25,160 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JPAMYSQL01Anotaciones04/src/main/resources
+2021-11-25 13:42:25,161 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JPAMYSQL01Anotaciones04/src/main/resources
+2021-11-25 13:42:25,161 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JPAMYSQL01Anotaciones04/src/test/java
+2021-11-25 13:42:27,120 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:27,121 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:27,123 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:42:27,161 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:27,172 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:27,175 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:27,175 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:42:28,373 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2021-11-25 13:42:29,086 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:29,086 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:29,087 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:42:29,090 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:42:29,099 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:42:29,100 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:42:29,100 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:43:34,057 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:43:34,057 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:43:34,058 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:43:34,075 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:43:34,080 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:43:34,080 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:43:34,080 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:44:15,781 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-11-25 13:44:16,125 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harnina:JPAH200Anotaciones:0.0.1-SNAPSHOT @ C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\pom.xml.
+2021-11-25 13:44:16,651 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JPAMYSQL01Anotaciones04/src/main/java
+2021-11-25 13:44:16,651 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JPAMYSQL01Anotaciones04/src/main/resources
+2021-11-25 13:44:16,651 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JPAMYSQL01Anotaciones04/src/main/resources
+2021-11-25 13:44:16,651 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JPAMYSQL01Anotaciones04/src/test/java
+2021-11-25 13:44:17,418 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:17,419 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:17,423 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:44:17,426 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:44:17,429 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:17,429 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:17,430 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:44:18,102 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-11-25 13:44:19,079 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:19,079 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:19,079 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:44:19,081 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:44:19,083 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:19,083 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:19,083 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-25 13:44:37,251 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:37,252 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:37,252 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-25 13:44:37,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-25 13:44:37,268 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-25 13:44:37,268 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-25 13:44:37,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAMYSQL01Anotaciones04\src\test\resources
+2021-11-26 08:18:34,324 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-26 08:24:45,110 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harnina:JPAH200Anotaciones:0.0.1-SNAPSHOT @ C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\pom.xml.
+2021-11-26 08:24:45,754 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:45,754 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:45,761 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:24:45,780 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:24:45,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:45,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:45,784 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources
+2021-11-26 08:24:46,557 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:46,558 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:46,558 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:24:46,566 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:24:46,568 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:46,568 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:46,569 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources
+2021-11-26 08:24:48,069 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:48,070 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:48,074 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:24:48,080 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:24:48,084 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:24:48,085 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:24:48,085 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources
+2021-11-26 08:25:17,231 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:17,233 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:17,236 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:25:17,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:25:17,268 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:17,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:17,269 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources
+2021-11-26 08:25:23,787 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:23,789 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:23,790 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:25:23,798 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:25:23,800 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:23,800 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:23,800 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources
+2021-11-26 08:25:57,230 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:57,232 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:57,232 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-26 08:25:57,243 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-26 08:25:57,245 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-26 08:25:57,246 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-26 08:25:57,246 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\Teoria Clase\JPAH2Repositories05\src\test\resources

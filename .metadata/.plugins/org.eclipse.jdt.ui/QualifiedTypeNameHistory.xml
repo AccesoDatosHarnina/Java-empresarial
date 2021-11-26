@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.example.demo.Persona"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 </qualifiedTypeNameHistroy>
