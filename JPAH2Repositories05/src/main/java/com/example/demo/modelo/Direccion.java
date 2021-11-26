@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Entity
 public class Direccion {
@@ -22,7 +23,10 @@ public class Direccion {
 	public Direccion() {
 		super();
 	}
-
+	
+//	@OneToOne(mappedBy="direccion")
+//	private Persona persona;
+	
 	public Direccion(String calle, int numero) {
 		super();
 		this.calle = calle;
@@ -46,10 +50,16 @@ public class Direccion {
 		return Objects.equals(calle, other.calle) && Objects.equals(id, other.id) && numero == other.numero;
 	}
 
+	
+
 	@Override
 	public String toString() {
 		return "Direccion [id=" + id + ", calle=" + calle + ", numero=" + numero + "]";
 	}
+//	@Override
+//	public String toString() {
+//		return "Direccion [id=" + id + ", calle=" + calle + ", numero=" + numero + ", persona=" + persona.toString() + "]";
+//	}
 
 	public String getCalle() {
 		return calle;
