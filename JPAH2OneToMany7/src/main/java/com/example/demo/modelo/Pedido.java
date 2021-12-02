@@ -25,7 +25,7 @@ public class Pedido {
 	private double amount;
 	
 	@ManyToOne
-	@JoinColumn(name="persona")
+	@JoinColumn(name="id_persona")
 	private Persona persona;
 	
 	public LocalDate getLocalDate() {

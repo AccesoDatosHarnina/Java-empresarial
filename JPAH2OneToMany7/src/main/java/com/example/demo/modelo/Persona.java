@@ -32,8 +32,8 @@ public class Persona {
 
 	private ArrayList<Telefono> telefonos;
 
-	// satisfacemos la asociacion OneToMany
-	@OneToMany(cascade = CascadeType.ALL)
+
+	@OneToMany(cascade=CascadeType.ALL,mappedBy="persona")
 	private List<Pedido> pedidos;
 
 	public Persona(String nombre, String apellidos) {
