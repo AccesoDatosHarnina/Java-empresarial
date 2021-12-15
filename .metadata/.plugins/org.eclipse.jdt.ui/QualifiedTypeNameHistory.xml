@@ -25,7 +25,6 @@
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
@@ -34,11 +33,17 @@
     <fullyQualifiedTypeName name="com.example.demo.modelo.Partido"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.example.demo.modelo.PartidoRepository"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.jayway.jsonpath.ParseContext"/>
+    <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.example.demo.modelo.AlumnoRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.modelo.Alumno"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.example.demo.modelo.ProfesorRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.modelo.Profesor"/>
 </qualifiedTypeNameHistroy>
