@@ -28,6 +28,7 @@ public class Persona {
 
 	private String apellidos;
 
+//	@ManyToMany(fetch = FetchType.EAGER,mappedBy="personas")
 	@ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL,mappedBy="personas")
 	
 	private List<Partido> partidos=new ArrayList<Partido>();

@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,7 @@ import com.example.demo.modelo.PersonaRepository;
 import com.jayway.jsonpath.ParseContext;
 
 @SpringBootTest
-class Jpah200AnotacionesApplicationTests {
+class Jpah208AnotacionesApplicationTests {
 	
 	//usando la inyeccion de dependencias este objeto lo crea Spring
 	@Autowired
@@ -30,12 +31,17 @@ class Jpah200AnotacionesApplicationTests {
 		Persona persona3 = new Persona("Emilio", "Capacino");
 		Partido partido=new Partido("tudelano","arroyoclarete");
 		//creando una lista inmutable
-		partido.setPersonas(List.of(persona,persona1,persona2,persona3));
-		partidoRepository.save(partido);
+		List personas=new LinkedList<Persona>();
+		personas.add(persona);
+		personas.add(persona1);
+		personas.add(persona2);
+		personas.add(persona3);
+		partido.setPersonas(personas);
 		personaRepository.save(persona);
 		personaRepository.save(persona1);
 		personaRepository.save(persona2);
 		personaRepository.save(persona3);
+		partidoRepository.save(partido);
 		System.out.println("mostrando los persona");
 		partidoRepository.findAll().forEach((par)->{
 			par.getPersonas().forEach((per)->{
@@ -49,7 +55,15 @@ class Jpah200AnotacionesApplicationTests {
 				System.err.println("partido "+pars.toString());
 			});
 		});
-		
+		Partido partido2=new Partido("Comelanense","rayo globero");
+		List personas1=new LinkedList<Persona>();
+		personas1.add(persona);
+		personas1.add(persona1);
+		personas1.add(persona2);
+		personas1.add(persona3);
+		partido2.setPersonas(personas1);
+		partidoRepository.save(partido2);
 	}
 
+	
 }

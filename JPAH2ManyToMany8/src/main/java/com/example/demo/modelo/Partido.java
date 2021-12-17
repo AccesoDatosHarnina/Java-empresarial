@@ -14,6 +14,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
 @Entity
 public class Partido {
 	@Id
@@ -21,7 +24,10 @@ public class Partido {
 	private int id;
 	private String nombreEquipoUno, nombreEquipoDos;
 	
-	@ManyToMany(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+//	@ManyToMany(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@ManyToMany(fetch=FetchType.EAGER)
+	//TODO
+	@Fetch(value = FetchMode.SUBSELECT)
 	@JoinTable(name = "mi_persona_partido", 
 	joinColumns = { 
 		@JoinColumn(name = "partido") }, 
