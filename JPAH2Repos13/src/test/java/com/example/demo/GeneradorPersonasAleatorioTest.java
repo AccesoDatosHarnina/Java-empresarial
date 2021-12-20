@@ -15,10 +15,11 @@ import com.example.demo.modelo.Persona;
 import com.example.demo.modelo.PersonaRepository;
 
 @SpringBootTest
-class GeneradorPersonasTest {
+class GeneradorPersonasAleatorioTest {
 
 	@Autowired
 	PersonaRepository personaRepository;
+	int numero=1000;
 	
 	@Test
 	void test() {
@@ -27,11 +28,12 @@ class GeneradorPersonasTest {
 		List<String> apellidoDos = List.of("Carvajal", "Nunez", "Gonzalez", "Cuellar", "Diaz");
 		LinkedList<Persona> personas = new LinkedList<>();
 		final int edadMaxima = 70;
+
 		nombres.forEach((nombre) -> {
 			apellidoUno.forEach((apellidoElemento) -> {
 				apellidoDos.forEach((apellidosDosElenento) -> {
 					personas.add(new Persona(nombre, apellidoElemento +" "+ apellidosDosElenento,
-							new Random().nextInt(edadMaxima)));
+							new Random().nextInt(edadMaxima),numero++));
 				});
 			});
 		});

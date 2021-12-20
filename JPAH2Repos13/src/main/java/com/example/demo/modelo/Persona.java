@@ -24,21 +24,25 @@ public class Persona {
 	private String apellidos;
 	private int edad;
 
+	private int numeroSocio;
+
 	public Persona() {
 		super();
 	}
 
 	
-	public Persona(String nombre, String apellidos, int edad) {
-		super();
-		this.nombre = nombre;
-		this.apellidos = apellidos;
-		this.edad = edad;
-	}
+
 
 
 	public String getNombre() {
 		return nombre;
+	}
+
+	public Persona(String nombre, String apellidos, int edad, int numeroSocio) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.edad = edad;
+		this.numeroSocio = numeroSocio;
 	}
 
 	public void setNombre(String nombre) {
