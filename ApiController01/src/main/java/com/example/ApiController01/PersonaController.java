@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -45,4 +46,12 @@ public class PersonaController {
 				(Persona per)->per.getNombre().startsWith(inicial))
 				.collect(Collectors.toList());
 	}
+	
+	@GetMapping("personasIN")
+	public List<Persona> buscaIN(@RequestParam String inicial){
+		return personaService.getPersonas().stream().filter(
+				(Persona per)->per.getNombre().startsWith(inicial))
+				.collect(Collectors.toList());
+	}
+	
 }
