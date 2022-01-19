@@ -27,9 +27,9 @@ public class PersonaService {
 		return this.personas.add(persona);
 	}
 
-	public boolean update(int id, Persona persona) {
+	public boolean update(int id, RequestUpdatePersona persona) {
 		findById(id).ifPresentOrElse((per) -> {
-			per.update(persona);
+			persona.update(per);
 			resultado = true;
 		}, () -> {
 			resultado = false;
@@ -39,5 +39,9 @@ public class PersonaService {
 
 	private Optional<Persona> findById(int id) {
 		return personas.stream().filter((per) -> per.getId() == id).findFirst();
+	}
+
+	public boolean delete(int id) {
+		return personas.removeIf((per)->per.getId()==id);
 	}
 }

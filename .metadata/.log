@@ -11835,3 +11835,71 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.ui 2 2 2022-01-19 09:10:18.609
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.jboss.tools.usage 4 0 2022-01-19 09:11:41.380
+!MESSAGE Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+	at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1769)
+	at java.base/java.util.regex.Matcher.reset(Matcher.java:415)
+	at java.base/java.util.regex.Matcher.<init>(Matcher.java:252)
+	at java.base/java.util.regex.Pattern.matcher(Pattern.java:1134)
+	at org.jboss.tools.usage.util.HttpEncodingUtils.getContentTypeCharset(HttpEncodingUtils.java:53)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getInputStreamReader(HttpRemotePropertiesProvider.java:125)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:92)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:100)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:400)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jboss.tools.usage 4 0 2022-01-19 09:13:54.578
+!MESSAGE Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+	at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1769)
+	at java.base/java.util.regex.Matcher.reset(Matcher.java:415)
+	at java.base/java.util.regex.Matcher.<init>(Matcher.java:252)
+	at java.base/java.util.regex.Pattern.matcher(Pattern.java:1134)
+	at org.jboss.tools.usage.util.HttpEncodingUtils.getContentTypeCharset(HttpEncodingUtils.java:53)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getInputStreamReader(HttpRemotePropertiesProvider.java:125)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:92)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:100)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:400)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2022-01-19 09:26:40.638
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-19 09:26:40.638
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54deaede,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49a8c92b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e4d9f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-19 09:29:27.469
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering

@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -64,8 +65,13 @@ public class PersonaController {
 	}
 	//Una operacion PUT y que se suele utilizar para actualizar datos existentes
 	@PutMapping("actualizar")
-	public boolean updatePerson(@RequestParam int id,@RequestBody Persona persona) {
+	public boolean updatePerson(@RequestParam int id,@RequestBody RequestUpdatePersona persona) {
 		return personaService.update(id,persona);
+	}
+	//Operacion de borrado DELETE
+	@DeleteMapping("delete")
+	public boolean deletePerson(@RequestParam int id) {
+		return personaService.delete(id);
 	}
 	
 }
