@@ -1,13 +1,15 @@
 package com.example.ApiController01;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
 @Service
 public class PersonaService {
-	//Esto hace de repo
+	// Esto hace de repo
 	ArrayList<Persona> personas;
+	private boolean resultado = false;
 
 	public PersonaService() {
 		personas = new ArrayList<>();
@@ -19,5 +21,23 @@ public class PersonaService {
 
 	public ArrayList<Persona> getPersonas() {
 		return this.personas;
+	}
+
+	public boolean addPersona(Persona persona) {
+		return this.personas.add(persona);
+	}
+
+	public boolean update(int id, Persona persona) {
+		findById(id).ifPresentOrElse((per) -> {
+			per.update(persona);
+			resultado = true;
+		}, () -> {
+			resultado = false;
+		});
+		return resultado;
+	}
+
+	private Optional<Persona> findById(int id) {
+		return personas.stream().filter((per) -> per.getId() == id).findFirst();
 	}
 }

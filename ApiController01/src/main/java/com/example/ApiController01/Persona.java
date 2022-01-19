@@ -1,8 +1,13 @@
 package com.example.ApiController01;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Data;
 import lombok.experimental.SuperBuilder;
 
+@Data
+@SuperBuilder
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Persona {
 	private int id;
 	private String nombre;
@@ -42,5 +47,11 @@ public class Persona {
 	@Override
 	public String toString() {
 		return "Persona [id=" + id + ", nombre=" + nombre + ", edad=" + edad + "]";
+	}
+
+	public void update(Persona persona) {
+		setId(persona.getId());
+		setNombre(persona.getNombre());
+		setEdad(persona.getEdad());
 	}
 }
