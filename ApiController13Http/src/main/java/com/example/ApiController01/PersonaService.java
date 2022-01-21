@@ -28,10 +28,12 @@ public class PersonaService {
 	}
 
 	public boolean update(int id, RequestUpdatePersona persona) {
-		findById(id).ifPresentOrElse((per) -> {
+		findById(id).ifPresentOrElse(
+		(per) -> {
 			persona.update(per);
 			resultado = true;
-		}, () -> {
+		}, 
+		() -> {
 			resultado = false;
 		});
 		return resultado;
@@ -42,6 +44,6 @@ public class PersonaService {
 	}
 
 	public boolean delete(int id) {
-		return personas.removeIf((per)->per.getId()==id);
+		return personas.removeIf((per) -> per.getId() == id);
 	}
 }
