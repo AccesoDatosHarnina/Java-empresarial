@@ -13,6 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.
 
 @Entity
 public class Persona {
@@ -21,6 +22,7 @@ public class Persona {
 	private Long id;
 	@Column(name = "nombre_persona", unique = true, length = 20)
 	private String nombre;
+	@
 	private String apellidos;
 
 	@Embedded

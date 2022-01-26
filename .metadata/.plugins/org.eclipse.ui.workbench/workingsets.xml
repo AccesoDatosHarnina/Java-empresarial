@@ -17,8 +17,22 @@
 <item elementID="=JPAH2Repositories05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=h2Trasacc3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641973780610_4" label="MVC" name="MVC"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641973780610_4" label="MVC" name="MVC">
+<item elementID="=JPAH200Anotaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAMYSQL01Anotaciones04" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2OneToMany6" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2OneToMany7" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2herencia10" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2herencia11" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2herencia12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2Repos13" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2ManyToMany8" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JPAH2Repositories05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=h2Trasacc3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AccesoBBDDCrudo01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641975662013_5" label="APIREst" name="APIREst">
+<item elementID="=ApiController16Response" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=cors15" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ApiController13Http" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=AccesoBBDDCrudo01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
