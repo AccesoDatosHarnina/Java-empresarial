@@ -38,6 +38,6 @@
 <item elementID="=AccesoBBDDCrudo01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1637312415897_2" label="Window Working Set" name="Aggregate for window 1637312415896"/>
-<mruList name="APIREst"/>
 <mruList name="MVC"/>
+<mruList name="APIREst"/>
 </workingSetManager>
